@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Zero Day Diaries';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Zero-Day Diaries';
+    : 'Welcome To Zero-Day Diaries!';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'A Cyber Security blog for educational purposes';
